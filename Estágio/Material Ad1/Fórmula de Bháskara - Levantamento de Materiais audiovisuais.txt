@@ -1,0 +1,48 @@
+Esse tal Bhaskara: https://m3.ime.unicamp.br/recursos/1097
+Demosntração da Fórmula (Paulo Pereira): https://www.youtube.com/watch?v=dM6U2tiWqBA
+
+
+git remote set-url origin https://github.com/cbotelho-matematica/PreVestUff.git
+
+
+Vídeo: Avaliação da Aprendizagem na Educação Superior em um Contexto Não Presencial
+Profa. Claudia de Oliveira Fernandes
+
+
+Momento 01 - 13'15  - Avaliação enquanto Leitura
+-------------------------
+A ideia de avaliação enquanto leitura está ligada ao paradigma subjetivista, apresentado na aula 03. Isso porque se considera que a avaliação não é neutra, vem carregada da visão de mundo e expectativas do avaliador. Essa visão da avaliação está ligada ao autor Hadji.  
+
+
+Momento 02 - 18'30 - Avaliação enquanto Construção 
+-------------------------
+A avaliação não é uma coisa cristalizada e atemporal. Ao contrário, ela se localiza histórico, social e culturalmente. Portanto, a avaliação irá refletir demandas e expectativas particulares do momento e da sociedade a qual faz parte. Além disso, ela irá exprimir o caráter cultural tanto da sociedade quanto da instituição escola.
+
+No entanto, concordamos com a profa. Lívia Suassuna, quando, no texto complementar da semana 02 ela destaca que o processo de desenvolvimento histórico da avaliação não é algo estanque. Então, não acontece de visões sobre a avaliação se sucederem ao longo do tempo, o processo é dinâmico e concepções complementares ou antagônicas convivem e dividem ou disputam espaço.
+
+
+Momento 03 - 29'21 - Avaliação do Ponto de Vista do Senso Comum
+-------------------------
+Há um consenso geral, nos mais diversos meios sociais, que a avaliação seletiva, meritocrática, é a única capaz de aferir e proporcionar educação de qualidade.
+
+A avaliação, como vimos no texto da semana 1, na verdade deve servir como bússola. Dever ter o propósito de indicar caminhos, ratificar escolhas, sustentar decisões. 
+
+Nesse sentido, consideramos que o papel formativo da avaliação pode romper com as crenças de um educação uniforme para promover uma educação mais plural e inclusiva.
+
+No entorno de uma lagoa circular, cujo raio mede 1 km, há um uma ciclovia. Devido aos frequentes roubos de bicicleta, a prefeitura planeja alocar policiais em posições estratégicas para patrulhar essa ciclovia, de forma a torná-la totalmente protegida. Um ponto da ciclovia é considerado protegido se houver pelo menos um policial a, no máximo, 200 m de distância daquele ponto, posicionado sobre a ciclovia. A figura ilustra um ponto $P$ sobre a ciclovia, que estará protegido se houver pelo menos um policial posicionado sobre a região de cor cinza escuro.  Desconsidere a largura da pista da ciclovia e utilize 3 como aproximação para $\pi$.
+
+-------------------------
+
+Quero um jogo que trabalhe conceitos básicos de um triângulo. Ele será dividido em fases. Na primeira fase ele trará desafios a respeito da classificação dos triângulos quanto aos lados. Quero que na tela tenham alguns triângulos espalhados, com a indicação de congruência entre seus lados e três Caixas: Equilátero, isósceles e escaleno. O objetivo vai ser arrastar os triângulos para as caixas corretas. Após finalizar o desafio, quero que a tela exiba um texto explicando as semelhanças quanto aos lados.
+
+A segunda etapa é um jogo semelhante, com a classificação quanto ao ângulo. Da mesma forma, com uma explicação ao final do desafio.
+
+A terceira etapa é o desafio dos ângulos. O desafio vai consistir em identificar os ângulos de um triângulo. Para isso, serão dados dois ângulos internos, para adivinhar o terceiro, ou um ângulo externo mais um ângulo interno. Ao final de 5 desafios, apresente um texto sobre os teoremas dos ângulos internos e externos de um triângulo
+
+A quarta etapa é a classificação de triângulos por semelhança. Apresentar casos de triângulos semelhantes e pedir para enquadrar nos padrões AA, LLL, LAL. Ao final, um texto sobre semelhanças de triângulos.
+
+A quinta e última etapa é identificar a altura dos triângulos. Apresentar triângulos dos mais diversos tipos com a altura destacada. O objetivo é que se entenda que a altura é um segmento perpendicular a base que encontra a reta paralela que passa pelo vértice oposto à base. Isso independente de a altura ser interna ou externa ao triângulo.
+
+O jogo deve ter uma aparência sóbria, com cores em tons pasteis, mas que dê destaque às figuras, ângulos e o que for importante para a realização dos desafios. Desenvolva um sistema de pontuação e a cada jogada, dê feedbacks com mensagens de incentivo.
+
+O valor máximo assumido pela grandeza III, quando a grandez I varia de 1 a 3, é
