@@ -23,7 +23,7 @@
     linkcolor=blue, % Cor dos links internos (como sumário ou referências)
     urlcolor=blue % Cor dos hyperlinks externos (URLs)
 }
-
+\usepackage{bookmark}
 % --- ESPAÇAMENTO E RECUO DE PARÁGRAFO ---
 \usepackage{setspace}
 \onehalfspacing % Espaçamento de 1,5 entre linhas
@@ -113,7 +113,7 @@ No Brasil, felizmente, terremotos são raros e quando ocorrem não costumam ser 
 
 \vspace{0.8em}
 
-\begin{observacao}[Jornal da Globo - Terremoto do Chile - 16.09.2015]
+\begin{observacao}[Jornal da Globo --- Terremoto do Chile --- 16.09.2015]
   \href{https://globoplay.globo.com/v/4472903/}{Clique aqui para acessar o recurso}. Dê uma olhada nesta notícia e veja o vídeo de 3 minutos. Veja como a terra treme com um terremoto de 8.3 graus (segunda metade do vídeo traz imagens e depoimentos).
 \end{observacao}
 
@@ -127,12 +127,12 @@ A magnitude de um terremoto na escala Richter é obtida por um cálculo (envolve
 \end{figure}
 
 Essencialmente, podemos obter a magnitude M de um terremoto, dividindo a amplitude A registrada no sismógrafo por uma amplitude de referência $A_0$ e extraindo o logaritmo na base $10: M = \log _{10} (A/ A_{0})$. 
-Então, quando $M = 8,3$ graus nesta escala, significa que a amplitude A medida no sismógrafo é $10^{8.3} A_0$, isto é, aproximadamente $200$ milhões de vezes a variação sísmica de referência $A_0$ (pois $10^{8.3} =199.526.231,5$).
+Então, quando $M = 8,3$ graus nesta escala, significa que a amplitude $A$ medida no sismógrafo é $10^{8.3} A_0$, isto é, aproximadamente $200$ milhões de vezes a variação sísmica de referência $A_0$ (pois $10^{8.3} =199.526.231,5$).
 
 
 \section{Comparando Terremotos}
 
-Nosso objetivo ao tratar dos terremotos é entender porque os logaritmos são indispensáveis para mensurar este fenômeno. Para perceber a necessidade destas (muitas vezes incompreendidas) funções matemáticas, vamos tentar comparar aproximações para os valores $A/A_0$ obtidas a partir das observações dos sismógrafos (sem fazer uso dos logaritmos). O que significa $A/A_0$? Esse valor nos diz quantas vezes maior a amplitude registrada no sismógrafo é em relação à amplitude de referência. Vejamos...
+Nosso objetivo ao tratar dos terremotos é entender porque os logaritmos são indispensáveis para mensurar este fenômeno. Para perceber a necessidade destas (muitas vezes incompreendidas) funções matemáticas, vamos tentar comparar aproximações para os valores $A/A_0$ obtidas a partir das observações dos sismógrafos (sem fazer uso dos logaritmos). O que significa $A/A_0$? Esse valor nos diz quantas vezes maior a amplitude registrada no sismógrafo é em relação à amplitude de referência. Vejamos\dots
 
 \vspace{0.6em}
 
@@ -143,7 +143,7 @@ Nosso objetivo ao tratar dos terremotos é entender porque os logaritmos são in
 
 \vspace{0.6em}
 
-Dê uma olhada nos números da coluna da direita... O que você percebe? Podemos ver que o maior número corresponde ao terremoto de 1960, no Chile, sendo maior que 3 bilhões. Já o menor nesta tabela é o do Brasil em 2008, próximo a 160 mil (este dado está aí para termos como referência alguma medição recente em nosso país). Mas com números tão díspares é difícil perceber a relação entre eles. Vamos usar nossa principal ferramenta para este tipo de tarefa: um gráfico.
+Dê uma olhada nos números da coluna da direita\ldots O que você percebe? Podemos ver que o maior número corresponde ao terremoto de 1960, no Chile, sendo maior que 3 bilhões. Já o menor nesta tabela é o do Brasil em 2008, próximo a 160 mil (este dado está aí para termos como referência alguma medição recente em nosso país). Mas com números tão díspares é difícil perceber a relação entre eles. Vamos usar nossa principal ferramenta para este tipo de tarefa: um gráfico.
 
 No gráfico usamos para o eixo y uma escala que mostra valores de 0 a 6 milhões. Veja que com essa escala só podemos ver no gráfico 4 dos 10 terremotos da tabela. Você deve tentar mudar a escala, mexendo na barra de controle que aparece no gráfico de forma a tentar visualizar simultaneamente e comparar os pontos correspondentes aos 10 terremotos registrados na tabela acima. 
 
@@ -157,7 +157,7 @@ No gráfico usamos para o eixo y uma escala que mostra valores de 0 a 6 milhões
 
 Você consegue comparar através deste gráfico as intensidades dos terremotos do Brasil simultaneamente com os chilenos e o japonês?
 
-Não, provavelmente, não...
+Não, provavelmente, não\ldots
 
 Você deve ter observado que é impossível comparar neste gráfico a intensidade destes 10 terremotos. Como a variação entre as intensidades é muito grande, quando a escala permite que vejamos os mais intensos, os mais fracos desaparecem no eixo x. E se mudarmos a escala de forma que se possa ver as diferenças entre os mais fracos, os mais intenso não se encaixarão na área visível.
 
@@ -170,7 +170,7 @@ Escala logarítmica! Em vez de olhar os valores $A/A_0$, faremos como propôs Ri
   \includegraphics[width=.45\textwidth]{tabela_richter.jpg}
 \end{figure}
 
-Agora, temos na tabela $\log _10 (A/A_0)$ para cada terremoto e podemos comparar facilmente estes valores em um mesmo gráfico.
+Agora, temos na tabela $\log _{10} (A/A_0)$ para cada terremoto e podemos comparar facilmente estes valores em um mesmo gráfico.
 
 \vspace{0.8em}
 
@@ -194,7 +194,7 @@ Agora vamos conhecer um pouco mais sobre o tema que estamos abordando.
 O vídeo abaixo, produzido na Unicamp, é uma boa ferramenta para utilizar quando estiver ensinando logaritmo. Temos também o guia do professor associado ao vídeo. Assista o vídeo e dê uma olhada no guia do professor.
 
 \begin{observacao}[Recurso didático: Terremoto Brasileiro]
-  Vídeo para apoio ao ensino de logaritmo produzido na UNICAMP. Neste site você encontra o vídeo e ainda outras informações sobre este recurso pedagógico:
+  Vídeo para apoio ao ensino de logaritmo produzido na UNICAMP.
 
   \vspace{0.8em}
 
@@ -241,7 +241,7 @@ Para relembrar a definição de função logaritmo, suas propriedades, as demons
 \href{https://graduacao.cederj.edu.br/pluginfile.php/25012/mod_resource/content/1/Trecho%20Fun%C3%A7%C3%A3o%20Logaritmo%20MB.pdf}{Função Logaritmo}
 \end{observacao}
 
-\subsection{Em tempos de juros altos...}
+\subsection{Em tempos de juros altos\ldots}
 
 Vamos dar uma olhada em outra importante aplicação dos logaritmos: problemas envolvendo juros. Esse tema é de suma importância e deve sempre estar presente quando ensinamos matemática. De fato, dificuldades associadas ao desconhecimento dos métodos de cálculo de juros são uma das razões para o grande endividamento de boa parte de nossa população. A matemática para a vida não pode se descuidar deste tópico. Vamos estudar um pequeno trecho da seção “O Logaritmo e os Problemas de Juros”, na página 80 da aula 24
 
